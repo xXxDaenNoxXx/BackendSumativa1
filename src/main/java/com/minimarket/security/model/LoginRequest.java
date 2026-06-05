@@ -1,11 +1,13 @@
 package com.minimarket.security.model;
 
+
+//Este archivo es solo un objteto de transeferencia de datos, recibe el JSON que envía el usuario cuando quiere iniciar sección
 public class LoginRequest {
     private String username;
     private String password;
 
 
-    //esta linea recibe el usuario y lo retorna
+    //esta linea recibe el usuario y lo retorna 
     public String getUsername() {
         return username;
     }
